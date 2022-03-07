@@ -125,4 +125,5 @@ console.log(ano); // 2019
 // let ano = 2020; // erro, redeclarou a variável
 ano = 2020;
 console.log(ano);
+
 //Geralmente vamos utilizar o const.
