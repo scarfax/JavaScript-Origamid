@@ -109,3 +109,22 @@ const Dom = {
 Dom.ativo(); // adiciona ativo ao li
 Dom.seletor = "ul";
 Dom.ativo(); // adiciona ativo ao ul
+
+//LEMBRE-SE DE USAR PARÂMETROS
+
+/*
+
+function Dom(seletor) {
+  const element = document.querySelector(seletor);
+  this.ativo = function (classe) {
+    element.classList.add(classe);
+  };
+}
+
+const lista = new Dom("ul");
+lista.ativo("ativo");
+
+const lastLi = new Dom("li:last-child");
+lastLi.ativo("ativo"); 
+
+*/
